@@ -3,8 +3,11 @@
  - Create React App
  - Configured Tailwind CSS
  - Header
+ - Routing
  - login form
  - Signup Form
+ - form validation
+ - use ref hook
 # Features
  - Login/Signup
      - Sign In / Sign up Free
@@ -19,4 +22,4 @@
  - NetflixGpt
      - Search bar
      - Movie suggestions# Netflix-gpt
-# Netflix-gpt
+
