@@ -8,6 +8,14 @@
  - Signup Form
  - form validation
  - use ref hook
+ - Firebase setup
+ - firebase deployment
+ - create signup user account
+ - implement sign In user API
+ - Created Redux store with userSlice
+ - Implemented signup
+ - update profile
+ - fetch movies from tmdb movies
 # Features
  - Login/Signup
      - Sign In / Sign up Free
