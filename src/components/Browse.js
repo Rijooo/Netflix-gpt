@@ -7,6 +7,7 @@ import { USER_AVATAR } from "../utils/constants";
 import useNowPlayingMovie from "../hooks/useNowPlayingMovies";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
+import usePopularMovies from "../hooks/usePopularMovies";
 
 const Browse = () => {
   //fetch data from TMDB API and update the store.
@@ -21,12 +22,13 @@ const Browse = () => {
       });
   };
   useNowPlayingMovie();
+  usePopularMovies();
 
   return (
     <>
       <Header />
 
-      <span className=" justify-end p-6">
+      <span className="  text-white  p-6">
         <img className="w-12 " alt="usericon" src={USER_AVATAR} />
         <button
           onClick={handleClick}
@@ -35,11 +37,10 @@ const Browse = () => {
           sign out
         </button>
       </span>
-      <MainContainer/>
-      <SecondaryContainer/>
+      <MainContainer />
+      <SecondaryContainer />
     </>
   );
 };
 
 export default Browse;
-

@@ -27,6 +27,13 @@
     - Secondary container
       1. Movie list
       2. cards
+- custom hook for now playing movies list
+- created movie slice
+- update store with movie data
+- fetch data fot trailer video
+- update store with trailer video data
+-  embedded the youtube video and autoplay and mute
+
 
 # Features
 
